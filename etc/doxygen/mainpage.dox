@@ -1,0 +1,15 @@
+/**
+  \mainpage
+
+  HRPGroup3 provides
+
+  \li \subpage HRPGroup3-Overview "HRPGroup3 Overview"
+  \li \subpage HRPGroup3-Tutorials "HRPGroup3 Tutorials"
+  \li \subpage HRPGroup3-HowTos "HRPGroup3 Howtos"
+  \li \subpage HRPGroup3-FAQ "HRPGroup3 FAQ"
+  \li \subpage HRPGroup3-Components "HRPGroup3 Components"
+  \li \subpage HRPGroup3-GuiPlugins "HRPGroup3 Gui Plugins"
+  \li \subpage HRPGroup3-About "HRPGroup3 About"
+  \li \subpage HRPGroup3-License "HRPGroup3 License"
+
+*/

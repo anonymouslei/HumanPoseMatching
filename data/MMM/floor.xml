@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Robot Type='unknown type' RootNode='root_floor_joint'>
+
+	<RobotNode name='root_floor_joint'>
+		<Joint type='revolute'>
+			<axis x='0' y='0' z='1'/>
+			<limits lo='0' hi='0' units='radian'/>
+			<MaxAcceleration value='-1'/>
+			<MaxVelocity value='-1'/>
+			<MaxTorque value='-1'/>
+		</Joint>
+		<Visualization>
+			<File type='inventor'>./models/root_floor_joint_visu.wrl</File>
+		</Visualization>
+	</RobotNode>
+
+
+
+	<RobotNodeSet name='All'>
+		<Node name='root_floor_joint'/>
+	</RobotNodeSet>
+
+	<RobotNodeSet name='Joints_Revolute'>
+		<Node name='root_floor_joint'/>
+	</RobotNodeSet>
+
+
+</Robot>

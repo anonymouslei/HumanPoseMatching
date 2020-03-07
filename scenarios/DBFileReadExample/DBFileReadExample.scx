@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario name="DBFileReadExample" creation="2020-02-24.03:52:15 PM" globalConfigName="./config/global.cfg" package="HRPGroup3" deploymentType="local" nodeName="NodeMain">
+	<application name="GuiVizExampleApp" instance="" package="HRPGroup3" nodeName="" enabled="true" iceAutoRestart="false"/>
+	<application name="ArVizStorage" instance="" package="RobotAPI" nodeName="" enabled="true" iceAutoRestart="false"/>
+	<application name="RemoteGuiProviderApp" instance="" package="ArmarXGui" nodeName="" enabled="true" iceAutoRestart="false"/>
+</scenario>
+

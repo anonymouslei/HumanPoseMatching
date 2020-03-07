@@ -1,0 +1,10 @@
+/**
+
+\page HRPGroup3-GuiPlugins  HRPGroup3 Gui Plugins
+
+This is a list of Gui Plugins available in HRPGroup3
+
+\subpage HRPGroup3-GuiPlugins-WidgetName The page for WidgetName is defined in the WidgetNameWidgetController header file
+
+
+*/

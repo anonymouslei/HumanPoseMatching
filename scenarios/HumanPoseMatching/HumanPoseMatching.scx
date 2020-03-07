@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<scenario name="HumanPoseMatching" creation="2020-03-04.09:39:41 AM" globalConfigName="./config/global.cfg" package="HRPGroup3" deploymentType="local" nodeName="NodeMain">
+	<application name="ArVizStorage" instance="" package="RobotAPI" nodeName="" enabled="true" iceAutoRestart="false"/>
+	<application name="HumanPoseMatchingApp" instance="" package="HRPGroup3" nodeName="" enabled="true" iceAutoRestart="false"/>
+	<application name="RemoteGuiProviderApp" instance="" package="ArmarXGui" nodeName="" enabled="true" iceAutoRestart="false"/>
+</scenario>
+

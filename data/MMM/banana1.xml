@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<Robot Type='unknown type' RootNode='root_banana_1_joint'>
+
+	<RobotNode name='root_banana_1_joint'>
+		<Joint type='revolute'>
+			<axis x='0' y='0' z='1'/>
+			<limits lo='0' hi='0' units='radian'/>
+			<MaxAcceleration value='-1'/>
+			<MaxVelocity value='-1'/>
+			<MaxTorque value='-1'/>
+		</Joint>
+		<Visualization>
+			<File type='inventor'>root_banana_1_joint_visu.wrl</File>
+		</Visualization>
+		<Sensor type='position' name='MARKER_b1r_01'>
+			<Transform>
+				<Matrix4x4 units='mm'>
+					<row1 c1='1' c2='0' c3='0' c4='-11.6319' />
+					<row2 c1='0' c2='1' c3='0' c4='80.3936' />
+					<row3 c1='0' c2='0' c3='1' c4='-11.1304' />
+					<row4 c1='0' c2='0' c3='0' c4='1' />
+				</Matrix4x4>
+			</Transform>
+		</Sensor>
+		<Sensor type='position' name='MARKER_b1r_02'>
+			<Transform>
+				<Matrix4x4 units='mm'>
+					<row1 c1='1' c2='0' c3='0' c4='19.2119' />
+					<row2 c1='0' c2='1' c3='0' c4='127.401' />
+					<row3 c1='0' c2='0' c3='1' c4='2.36884' />
+					<row4 c1='0' c2='0' c3='0' c4='1' />
+				</Matrix4x4>
+			</Transform>
+		</Sensor>
+		<Sensor type='position' name='MARKER_b1r_03'>
+			<Transform>
+				<Matrix4x4 units='mm'>
+					<row1 c1='1' c2='0' c3='0' c4='-11.8308' />
+					<row2 c1='0' c2='1' c3='0' c4='123.012' />
+					<row3 c1='0' c2='0' c3='1' c4='6.95504' />
+					<row4 c1='0' c2='0' c3='0' c4='1' />
+				</Matrix4x4>
+			</Transform>
+		</Sensor>
+	</RobotNode>
+
+
+
+	<RobotNodeSet name='All'>
+		<Node name='root_banana_1_joint'/>
+	</RobotNodeSet>
+
+	<RobotNodeSet name='Joints_Revolute'>
+		<Node name='root_banana_1_joint'/>
+	</RobotNodeSet>
+
+
+</Robot>
